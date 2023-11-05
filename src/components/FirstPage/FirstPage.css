@@ -1,0 +1,62 @@
+#contentBox {
+  height: 390px;
+  width: 100%;
+  background-color: var(--light-background-color);
+  border-radius: 30px;
+  margin-bottom: 35px;
+  white-space: nowrap;
+  padding: 0 10px;
+  overflow-x: auto;
+}
+#LandingPageAppLogo #appLogo {
+  height: 250px;
+  border-radius: 200px;
+}
+
+/* card styling */
+
+.Card {
+  display: inline-flex;
+  margin: 20px 10px;
+  border-radius: 20px;
+  width: 300px;
+  height: 93%;
+
+  background: linear-gradient(
+    180deg,
+    rgba(239, 121, 241, 1) 0%,
+    rgba(237, 184, 193, 1) 72%,
+    rgba(235, 237, 153, 1) 100%
+  );
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.owlImages {
+  height: 50%;
+}
+
+.InnerCard {
+  height: 45%;
+  padding: 10px 0;
+  background-color: #880083;
+  width: 80%;
+  border-radius: 10px;
+  color: #f7f7f7;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-wrap: wrap;
+  flex-direction: column;
+  box-shadow: 1px 1px 10px 0px #363333;
+}
+
+.button {
+  width: 80%;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 20px;
+  height: 30px;
+}

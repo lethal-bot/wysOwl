@@ -1,0 +1,8 @@
+:root {
+  --main-background-color: #fcd8ff;
+  --light-background-color: #e0d7f2;
+  --header-background-color: #290926;
+  --main-padding: 10px 40px;
+  --unselected-icon: #b3b3b3;
+  --selected-icon: #fff;
+}

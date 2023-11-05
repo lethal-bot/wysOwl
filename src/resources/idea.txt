@@ -1,0 +1,49 @@
+const sections = [
+    { id : "c1",
+      name : "Consti",
+    },
+    { id : "12",
+      name : "IndVsBharat",
+    },
+]
+
+const units = [
+    { id : "12",
+      name : "Leagl1",
+      sectioId : c1
+    },
+    { id : "13",
+      name : "Leagl3",
+      sectioId : c2
+    },
+]
+const actualQuestion = [
+  {
+      id: "xyz1",
+      unidId : 12,
+      text: "this is a first dummy question",
+      ans: [
+        "this is the correct ans",
+        "this is a wrong ans",
+        "this is also a wrong ans",
+        "this is a incorrect ans",
+      ],
+      answerExp : "hnu"
+    }
+]
+
+function populateAllSections() {
+    sections.map(sec => {
+        getAllUnitUnderTheSection(secId)
+        return ''
+    })
+}
+getAllUnitUnderTheSection(secId) {
+    units.map(unit => {
+        unit.name, unit.Id
+        getAllQuestionFromUnit(unitId)
+    })
+}
+getAllQuestionFromUnit(unitId) {
+
+}
